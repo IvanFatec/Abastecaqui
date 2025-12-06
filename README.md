@@ -19,4 +19,5 @@ Funcionalidades Principais
 VISUALIZAÇÃO DA PÁGINA HOME:
 Interface Mobile:
 
-         
+  <img src="img/posto.png" alt="Visualização da Home" width="300">
+       
