@@ -19,4 +19,4 @@ Funcionalidades Principais
 VISUALIZAÇÃO DA PÁGINA HOME:
 Interface Mobile:
 
-          <img id="logo" src="img/posto.png" alt="Logo" width="218" height="90" border="0" style="transition: opacity 1s ease-in-out;">
+         
