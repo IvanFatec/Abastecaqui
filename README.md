@@ -20,5 +20,5 @@ VISUALIZAÇÃO DA PÁGINA HOME:
 Interface Mobile:
 
           <p align="center">
-    <img src="images/posto.png" alt="Mockup da tela de consulta de postos e preços para motoristas" width="500"/>
+    <img src="img/posto.png" alt="Mockup da tela de consulta de postos e preços para motoristas" width="500"/>
 </p>
