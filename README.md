@@ -150,3 +150,5 @@ Interface Mobile:
 - Então o sistema deve exibir uma lista de postos da região com preços atualizados
 
 ## ⛽️ Diagrama de Casos
+<img src="img/diagcasos.png" alt="Visualização da Home" width="954">
+
