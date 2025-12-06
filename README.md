@@ -19,4 +19,6 @@ Funcionalidades Principais
 VISUALIZAÇÃO DA PÁGINA HOME:
 Interface Mobile:
 
-           <img width="416" height="701" alt="image" src="https://github.com/user-attachments/assets/e1292f1f-ecce-487d-874f-0b64582f95d8" />
+          <p align="center">
+    <img src="images/posto.png" alt="Mockup da tela de consulta de postos e preços para motoristas" width="500"/>
+</p>
