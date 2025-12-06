@@ -154,3 +154,131 @@ Interface Mobile:
 
 ## ⛽️ Diagrama de Sequência
 <img src="img/sistema.png" alt="Visualização da Home" width="954">
+
+## ⛽️ 5W2H das Funcionalidades
+
+---
+
+### 📌 Funcionalidade: Cadastro de Postos
+
+**What (O quê?)**  
+Cadastro de um novo posto de combustível no sistema.
+
+**Why (Por quê?)**  
+Para que motoristas consigam visualizar o posto no aplicativo.
+
+**Who (Quem?)**  
+Proprietário do posto.
+
+**Where (Onde?)**  
+Na tela de cadastro dentro do aplicativo.
+
+**When (Quando?)**  
+Sempre que um proprietário desejar cadastrar um novo posto.
+
+**How (Como?)**  
+Informando nome, endereço e demais dados obrigatórios.
+
+**How Much (Quanto?)**  
+Sem custo adicional.
+
+---
+
+### 📌 Funcionalidade: Cadastro de Preços
+
+**What (O quê?)**  
+Registro e atualização dos preços dos combustíveis.
+
+**Why (Por quê?)**  
+Para fornecer informações atualizadas aos motoristas.
+
+**Who (Quem?)**  
+Proprietário do posto.
+
+**Where (Onde?)**  
+Na aba de preços do app.
+
+**When (Quando?)**  
+Quando houver alteração nos valores.
+
+**How (Como?)**  
+Inserindo os valores dos combustíveis e confirmando.
+
+**How Much (Quanto?)**  
+Sem custo extra.
+
+---
+
+### 📌 Funcionalidade: Consulta de Preços
+
+**What (O quê?)**  
+Visualização de postos próximos e seus preços.
+
+**Why (Por quê?)**  
+Para ajudar motoristas a escolher o melhor local para abastecer.
+
+**Who (Quem?)**  
+Motorista/usuário do aplicativo.
+
+**Where (Onde?)**  
+Na área de busca e mapas do app.
+
+**When (Quando?)**  
+A qualquer momento.
+
+**How (Como?)**  
+Usando o GPS do celular ou filtros de busca.
+
+**How Much (Quanto?)**  
+Gratuito.
+
+---
+
+### 📌 Funcionalidade: Atualização de Preços
+
+**What (O quê?)**  
+Alteração dos valores de combustíveis cadastrados.
+
+**Why (Por quê?)**  
+Garantir que os preços exibidos sejam os reais.
+
+**Who (Quem?)**  
+Proprietário do posto.
+
+**Where (Onde?)**  
+Na tela de edição de preços do app.
+
+**When (Quando?)**  
+Sempre que os valores mudarem.
+
+**How (Como?)**  
+Editando o valor anterior e salvando.
+
+**How Much (Quanto?)**  
+Sem custo.
+
+---
+
+### 📌 Funcionalidade: Cadastro de Promoções
+
+**What (O quê?)**  
+Inserção de promoções temporárias no aplicativo.
+
+**Why (Por quê?)**  
+Atrair mais motoristas e aumentar o volume de abastecimentos.
+
+**Who (Quem?)**  
+Proprietário do posto.
+
+**Where (Onde?)**  
+No painel de promoções do aplicativo.
+
+**When (Quando?)**  
+Durante períodos promocionais definidos pelo proprietário.
+
+**How (Como?)**  
+Informando descrição, preço, combustível e validade.
+
+**How Much (Quanto?)**  
+Pode variar conforme o plano contratado.
+
