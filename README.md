@@ -20,4 +20,132 @@ VISUALIZAÇÃO DA PÁGINA HOME:
 Interface Mobile:
 
   <img src="img/posto.png" alt="Visualização da Home" width="300">
-       
+
+ <h2>📚 Casos de Uso</h2>
+
+<h3>Atores:</h3>
+<ul>
+    <li><strong>Proprietário do Posto</strong> (responsável pelo cadastro/atualização dos preços)</li>
+    <li><strong>Usuário/Motorista</strong> (consulta os preços e localiza postos)</li>
+    <li><strong>Sistema</strong></li>
+</ul>
+
+<h3>Principais casos de uso:</h3>
+
+<ol>
+    <li>
+        <strong>Proprietário cadastra posto de combustível</strong>
+        <ul>
+            <li>Proprietário informa nome, localização, bandeira do posto.</li>
+            <li>Sistema registra o posto.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Proprietário cadastra preços de combustíveis</strong>
+        <ul>
+            <li>Proprietário seleciona um posto.</li>
+            <li>Insere valores de gasolina, etanol, diesel etc.</li>
+            <li>Sistema salva.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Proprietário atualiza preços</strong>
+        <ul>
+            <li>Proprietário edita valores antigos.</li>
+            <li>Sistema mantém histórico de alterações.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Proprietário pode criar promoções no aplicativo</strong>
+        <ul>
+            <li>Proprietário cria promoções no aplicativo.</li>
+            <li>Sistema destaca a promoção.</li>
+            <li>Essa funcionalidade tem prazo de validade.</li>
+            <li>Promo Extra é cobrada de acordo com o plano escolhido.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Usuário consulta postos e preços</strong>
+        <ul>
+            <li>Usuário pesquisa por localização ou filtragem (mais barato, mais próximo).</li>
+            <li>Sistema retorna lista com preços.</li>
+        </ul>
+    </li>
+</ol>
+
+## ⛽️ Diagrama de Sequência (exemplo: Proprietário de posto cadastra preço)
+
+1. Proprietário → App: solicita cadastro de preço.
+2. App → Sistema: envia posto + valores.
+3. Sistema → Banco de Dados: grava preços.
+4. Banco de Dados → Sistema: confirma.
+5. Sistema → App: retorna sucesso.
+6. App → Cliente: exibe "Preço cadastrado com sucesso".
+
+---
+
+## ⛽️ Histórias de Usuário
+
+1. **Cadastro de posto**
+    - Como proprietário de posto
+    - Quero cadastrar meu posto com nome e endereço
+    - Para que ele fique visível para os motoristas.
+
+2. **Cadastro de preços**
+    - Como proprietário de posto
+    - Quero inserir os preços atualizados dos combustíveis
+    - Para que os motoristas tenham acesso a informações corretas.
+
+3. **Consulta de postos**
+    - Como motorista
+    - Quero visualizar os postos mais próximos e seus preços
+    - Para escolher o que mais me convém.
+
+4. **Atualização de preços**
+    - Como proprietário de posto
+    - Quero editar preços desatualizados
+    - Para que o app reflita os valores reais.
+
+5. **Cadastro de Promoções**
+    - Como proprietário de posto
+    - Quero inserir promoções no App
+    - Para atrair mais motoristas para abastecer no meu posto.
+  
+## ⛽️ Cenários em Gherkin
+
+### Funcionalidade: Cadastro de postos
+- Como proprietário de um posto  
+- Quero cadastrar meu posto no aplicativo  
+- Para que motoristas possam consultá-lo.
+
+**Cenário: Cadastrar posto com sucesso**
+- Dado que o proprietário está na tela de cadastro de posto  
+- Quando ele informa nome "Posto BR" e endereço "Av. Central, 500"  
+- E confirma o cadastro  
+- Então o sistema deve salvar o posto e exibir "Posto cadastrado com sucesso"
+
+---
+
+### Funcionalidade: Cadastro de preços
+- Como proprietário de um posto  
+- Quero cadastrar os preços de combustíveis  
+- Para que os motoristas tenham acesso às informações atualizadas.
+
+**Cenário: Cadastrar preço da gasolina**
+- Dado que existe um posto cadastrado "Posto BR"  
+- Quando o proprietário informa o preço "R$ 5,29" para gasolina  
+- E confirma o registro  
+- Então o sistema deve salvar o preço informado
+
+---
+
+### Funcionalidade: Consulta de preços
+- Como motorista  
+- Quero visualizar os postos e seus preços  
+- Para escolher onde abastecer.
+
+**Cenário: Consultar postos próximos**
+- Dado que existem postos cadastrados  
+- Quando o motorista pesquisa por localização via GPS do celular  
+- Então o sistema deve exibir uma lista de postos da região com preços atualizados
+
