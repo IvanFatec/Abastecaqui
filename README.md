@@ -152,3 +152,5 @@ Interface Mobile:
 ## ⛽️ Diagrama de Casos
 <img src="img/diagcasos.png" alt="Visualização da Home" width="954">
 
+## ⛽️ Diagrama de Sequência
+<img src="img/sistema.png" alt="Visualização da Home" width="954">
