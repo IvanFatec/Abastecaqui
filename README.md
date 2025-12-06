@@ -149,3 +149,4 @@ Interface Mobile:
 - Quando o motorista pesquisa por localização via GPS do celular  
 - Então o sistema deve exibir uma lista de postos da região com preços atualizados
 
+## ⛽️ Diagrama de Casos
